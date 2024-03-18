@@ -5,7 +5,7 @@ const Item = (props) => {
  let totalProductInCart = () =>{
   props.incChildHandler();
 }
-let showProductInCart=()=>{}
+
   return (
     <div className="item">
       <img src={props.image} alt="" />
@@ -15,7 +15,7 @@ let showProductInCart=()=>{}
         onClick={() => {
         
        totalProductInCart();
-       showProductInCart();
+       
         }}
       >
         Add to Cart
