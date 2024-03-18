@@ -1,0 +1,22 @@
+.item{
+    width: 350px;
+}
+.item p{
+    margin: 6px 0px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.item img{
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.item button{
+    background-color: rgb(236, 12, 49);
+    border: 1px solid white;
+    border-radius: 5px;
+    height: 40px;
+    font-size: 15px;
+    cursor: pointer;
+}
