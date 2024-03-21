@@ -5,6 +5,9 @@ const Item = (props) => {
  let totalProductInCart = () =>{
   props.incChildHandler();
 }
+let  showProductInCart = () => {
+   
+}
 
   return (
     <div className="item">
@@ -15,6 +18,7 @@ const Item = (props) => {
         onClick={() => {
         
        totalProductInCart();
+       showProductInCart();
        
         }}
       >
